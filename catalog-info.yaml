@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: workspace-dogfood-e2e
+  description: Disposable synthetic acceptance-test fixture
+  annotations:
+    backstage.io/source-location: url:https://github.com/joaodinissf/workspace-dogfood-e2e/tree/main/
+    github.com/project-slug: joaodinissf/workspace-dogfood-e2e
+spec:
+  type: library
+  lifecycle: experimental
+  owner: user:default/joaodinissf
